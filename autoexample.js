@@ -2,7 +2,7 @@ var imgs = document.getElementsByTagName('img');
 
 for(var i = 0; i < imgs.length; i++){
   imgs[i].addEventListener('mouseover', function(event){
-    e.preventDefault();
+    event.preventDefault();
     console.log('Numero: ', i);
   },'false');
 }
@@ -18,4 +18,17 @@ for(var i = 0; i < imgs.length; i++){
       console.log('Numero:', img);
     }, 'false');
   })(i);
+}
+var Person = (function(){
+
+  return Person;
+});
+
+Object.create //es6
+
+Person.prototype.metodo = function(x){
+
+};
+var Person = {
+  "asd": "asdsad";
 }
